@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dbe1a6a0-be9b-46c8-8010-2240270e239a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2cddae68-cc87-4037-933b-1ce347827761" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/urlIncluding/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../urlParams/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../urlParams/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1Xc1kdOnYpFBkQ8p9vjUw6i1BLF" />
+  <component name="ProjectId" id="1XcJCmBIV7PXfOGr7cjsDDHVVwj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,13 +32,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="urlParams" type="Python.DjangoServer" factoryName="Django server">
-      <module name="urlParams" />
+    <configuration name="urlInclude" type="Python.DjangoServer" factoryName="Django server">
+      <module name="urlInclude" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="urlParams.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="urlInclude.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Users\Null\AppData\Local\Continuum\miniconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -48,7 +56,7 @@
         </ENTRIES>
       </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8001" />
+      <option name="port" value="8002" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -76,13 +84,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dbe1a6a0-be9b-46c8-8010-2240270e239a" name="Default Changelist" comment="" />
-      <created>1581330712795</created>
+      <changelist id="2cddae68-cc87-4037-933b-1ce347827761" name="Default Changelist" comment="" />
+      <created>1581339324018</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581330712795</updated>
-      <workItem from="1581330714921" duration="1810000" />
-      <workItem from="1581335408460" duration="2678000" />
+      <updated>1581339324018</updated>
+      <workItem from="1581339326209" duration="428000" />
     </task>
     <servers />
   </component>
@@ -90,29 +97,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581338370780">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581339518530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581338370780" />
-    <state width="1493" height="406" key="GridCell.Tab.0.bottom" timestamp="1581339169791">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339518530" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581339731522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339169791" />
-    <state width="1493" height="406" key="GridCell.Tab.0.center" timestamp="1581339169791">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339731522" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581339731521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339169791" />
-    <state width="1493" height="406" key="GridCell.Tab.0.left" timestamp="1581339169791">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339731521" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581339731521">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339169791" />
-    <state width="1493" height="406" key="GridCell.Tab.0.right" timestamp="1581339169791">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339731521" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581339731522">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="406" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339169791" />
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581335420419">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="449" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581335420419" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581339731522" />
   </component>
 </project>
