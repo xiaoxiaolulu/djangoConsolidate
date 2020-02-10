@@ -11,8 +11,12 @@ def index(request):
     else:
         # 路由反转
         # return redirect(reverse('login'))
+
         # 根据应用命名空间反转路由
         return redirect(reverse('cms:login'))
+
+        # 实例命名空间用法
+        # return redirect(reverse(f'{request.resolver_match.namespace}:login'))
 
 
 def login(request):

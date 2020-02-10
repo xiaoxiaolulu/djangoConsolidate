@@ -2,37 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8d4436f-fc31-47b8-ad5e-2cbd937f4a70" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/urlName.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cms/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/font/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlName/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlName/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlName/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlName/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlName/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../urlInclude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../urlInclude/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/font/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/font/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urlName/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/urlName/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581339964803</updated>
-      <workItem from="1581339966686" duration="1217000" />
+      <workItem from="1581339966686" duration="1634000" />
     </task>
     <servers />
   </component>
