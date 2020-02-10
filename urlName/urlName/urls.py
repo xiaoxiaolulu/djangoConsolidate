@@ -20,6 +20,12 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('font.urls')),
     # 同一个app下有两个实例
+    # 指定实例命名空间，子url模块必须指定应用命名空间, 也可以在include中指定应用命名空间
+    # include('cms.urls', 'cms'), namespace='cms1'
+
+    # 传递列表 包含子模块路由传递
+    # include([path('', view.movie), path('movie_list, view.move_list)'])
+
     path('cms1/', include('cms.urls'), namespace='cms1'),
     path('cms2/', include('cms.urls'), namespace='cms2')
 ]
