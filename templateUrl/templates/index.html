@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/">1</a></li>
+        <li><a href="{% url 'a' %}">2</a></li>
+        <li><a href="/b/">3</a></li>
+        <li><a href="/c/">4</a></li>
+        <li><a href="{% url 'detail' book_id='1' %}">5</a></li>
+    </ul>
+</body>
+</html>
