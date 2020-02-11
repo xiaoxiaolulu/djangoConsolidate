@@ -29,3 +29,9 @@ class Article(models.Model):
     id = models.BigAutoField(primary_key=True)
     # removed = models.BooleanField(default=1)
     create_time = models.DateTimeField(default=timezone.now)
+    
+    class Meta:
+        
+        db_table = 'hello_world'
+        ordering = ['-create_time']
+
