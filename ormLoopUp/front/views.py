@@ -2,7 +2,7 @@ from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-from front.models import Article
+from front.models import Article, Category
 
 
 def index(request):
@@ -26,4 +26,15 @@ def index(request):
     # WHERE `front_article`.`title` LIKE %zh9ngs%
     article3 = Article.objects.filter(title__icontains='zh9ngs')
     print(article3.query)
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content` FROM `front_article`
+    # WHERE `front_article`.`id` IN (1, 2)
+    article4 = Article.objects.filter(id__in=[1, 2])
+    print(article4.query)
+
+    # 通过文章分类查找文章
+    # SELECT `front_category`.`id`, `front_category`.`name` FROM `front_category` INNER JOIN `front_article` ON
+    # (`front_category`.`id` = `front_article`.`category_id`) WHERE `front_article`.`id` IN (1, 2)
+    category = Category.objects.filter(article__id__in=[1, 2])
+    print(category.query)
     return HttpResponse("success")
