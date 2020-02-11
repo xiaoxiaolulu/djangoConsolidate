@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% with  zhangsan=person.0  %}
+        <p>{{ zhangsan }}</p>
+        <p>{{ zhangsan }}</p>
+    {% endwith %}
+
+    {% with person.1 as zs  %}
+        <p>{{ zs }}</p>
+    {% endwith %}
+</body>
+</html>
