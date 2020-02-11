@@ -8,6 +8,9 @@ class Book(models.Model):
     author = models.CharField(max_length=100, null=False)
     price = models.FloatField(null=False, default=0)
 
+    def __str__(self):
+        return f"{self.id} {self.name} {self.author} {self.price}"
+
 # python  manage.py makemigrations
 # python manage.py migrate
 
