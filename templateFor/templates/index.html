@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        {% for foo in book reversed%}
+            <li>{{ foo }}</li>
+        {% endfor %}
+    </ul>
+    <ul>
+        {% for k, v in  person.items%}
+            <li>{{ k }} {{ v }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
