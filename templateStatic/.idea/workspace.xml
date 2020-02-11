@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e8a844a-81b3-4aba-80fb-a24cbdf1b3c9" name="Default Changelist" comment="" />
+    <list default="true" id="2d96e5f6-ff35-45a0-b751-f09aa7566cee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templateExtend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../templateExtend/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1XeMcXo0J5Psmf7kXM2vyBdHUt6" />
+  <component name="ProjectId" id="1XeNu9UXJDGUrR0R1cxNpYccL8f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,13 +33,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="templateExtend" type="Python.DjangoServer" factoryName="Django server">
-      <module name="templateExtend" />
+    <configuration name="templateStatic" type="Python.DjangoServer" factoryName="Django server">
+      <module name="templateStatic" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="templateExtend.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="templateStatic.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Users\Null\AppData\Local\Continuum\miniconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -54,7 +57,7 @@
         </ENTRIES>
       </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8080" />
+      <option name="port" value="8100" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -82,42 +85,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e8a844a-81b3-4aba-80fb-a24cbdf1b3c9" name="Default Changelist" comment="" />
-      <created>1581402186763</created>
+      <changelist id="2d96e5f6-ff35-45a0-b751-f09aa7566cee" name="Default Changelist" comment="" />
+      <created>1581402819890</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581402186763</updated>
-      <workItem from="1581402188813" duration="630000" />
+      <updated>1581402819890</updated>
+      <workItem from="1581402821771" duration="962000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581402335659">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581403537443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402335659" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581402819207">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581403537443" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581403639917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402819207" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581402819205">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581403639917" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581403639917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402819205" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581402819205">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581403639917" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581403639917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402819205" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581402819206">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581403639917" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581403639917">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402819206" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581402257176">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402257176" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581403639917" />
   </component>
 </project>
