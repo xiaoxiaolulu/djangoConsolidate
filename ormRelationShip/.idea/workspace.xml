@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d384c3c-631e-4708-9ff9-77f7b241342c" name="Default Changelist" comment="" />
+    <list default="true" id="10cdd057-2587-402b-adb0-f0a94d50818f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ormRelationShip.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../createOrmModule/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../createOrmModule/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1XekHU8gzYr1cryUoOlytKRYRBp" />
+  <component name="ProjectId" id="1Xf4l1L8KVez7ZE1pnGN8GacLF1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,18 +21,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="createOrmModule" type="Python.DjangoServer" factoryName="Django server">
-      <module name="createOrmModule" />
+    <configuration name="ormRelationShip" type="Python.DjangoServer" factoryName="Django server">
+      <module name="ormRelationShip" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="createOrmModule.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="ormRelationShip.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Users\Null\AppData\Local\Continuum\miniconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -82,57 +77,38 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2d384c3c-631e-4708-9ff9-77f7b241342c" name="Default Changelist" comment="" />
-      <created>1581413859443</created>
+      <changelist id="10cdd057-2587-402b-adb0-f0a94d50818f" name="Default Changelist" comment="" />
+      <created>1581423961312</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581413859443</updated>
-      <workItem from="1581413861589" duration="5504000" />
+      <updated>1581423961312</updated>
+      <workItem from="1581423962625" duration="873000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581414786816">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581424502761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581414786816" />
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581423712786">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581424502761" />
+    <state width="1493" height="406" key="GridCell.Tab.0.bottom" timestamp="1581424647687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581423712786" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581423960804">
+    <state width="1493" height="406" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581424647687" />
+    <state width="1493" height="406" key="GridCell.Tab.0.center" timestamp="1581424647687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581423960804" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581423960803">
+    <state width="1493" height="406" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581424647687" />
+    <state width="1493" height="406" key="GridCell.Tab.0.left" timestamp="1581424647687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581423960803" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581423960803">
+    <state width="1493" height="406" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581424647687" />
+    <state width="1493" height="406" key="GridCell.Tab.0.right" timestamp="1581424647687">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581423960803" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581423960803">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581423960803" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581415797956">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581415797956" />
+    <state width="1493" height="406" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581424647687" />
   </component>
 </project>
