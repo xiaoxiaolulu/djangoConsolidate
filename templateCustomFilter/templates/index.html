@@ -1,3 +1,4 @@
+{% load my_filter %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,12 +6,7 @@
     <title>Title</title>
 </head>
 <body>
-{#    {{ 1|add:2 }}#}
-{#    {{'hello world'|cut:' '}}#}
-{#    {{ today |date:"Y" }}#}
 
-    {{ value|default:'world'}}
-
-
+    {{ "2"|greet:"3" }}
 </body>
 </html>

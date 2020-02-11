@@ -6,7 +6,14 @@ def greet(world):
 
 
 def index(request):
+    # context = {
+    #     'greet': greet
+    # }
+    # import datetime
+    # context = {
+    #     'today': datetime.datetime.now()
+    # }
     context = {
-        'greet': greet
+        'value': ''
     }
-    return render(request, 'index.html')
+    return render(request, 'index.html', context=context)
