@@ -21,5 +21,6 @@ from article import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
-    path('a/', views.del_view)
+    path('a/', views.del_view),
+    path('b/', views.one_to_many_view)
 ]
