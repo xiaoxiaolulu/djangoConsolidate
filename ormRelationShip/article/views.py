@@ -12,3 +12,10 @@ def index(request):
     article.category = category
     article.save()
     return HttpResponse("success")
+
+
+def del_view(request):
+
+    cate = Category.objects.get(pk=1)
+    cate.delete()
+    return HttpResponse('success')
