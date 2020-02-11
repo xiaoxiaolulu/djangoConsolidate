@@ -2,6 +2,9 @@ from django.db import models
 
 
 # Create your models here.
+from django.utils import timezone
+
+
 class Book(models.Model):
     id = models.AutoField(primary_key=True)
     name = models.CharField(max_length=100, null=False)
@@ -19,3 +22,10 @@ class Publisher(models.Model):
     
     name = models.CharField(max_length=100, null=False)
     address = models.CharField(max_length=100, null=False)
+
+
+class Article(models.Model):
+    
+    id = models.BigAutoField(primary_key=True)
+    # removed = models.BooleanField(default=1)
+    create_time = models.DateTimeField(default=timezone.now)

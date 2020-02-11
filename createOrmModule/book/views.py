@@ -2,7 +2,9 @@ from django.shortcuts import render
 
 
 # Create your views here.
-from book.models import Book
+from django.utils.timezone import now, localtime
+
+from book.models import Book, Article
 
 
 def index(request):
@@ -11,19 +13,22 @@ def index(request):
     # book.save()
 
     # 查询
-    book = Book.objects.get(pk=1)
-    print(book)
-
-    book1 = Book.objects.filter(name='桑果演绎')
-    print(book1)
-    print(book1.first())
+    # book = Book.objects.get(pk=1)
+    # print(book)
+    #
+    # book1 = Book.objects.filter(name='桑果演绎')
+    # print(book1)
+    # print(book1.first())
 
     # 删除
     # book = Book.objects.get(pk=1)
     # book.delete()
 
     # 修改
-    book = Book.objects.get(pk=1)
-    book.price = 3000
-    book.save()
+    # book = Book.objects.get(pk=1)
+    # book.price = 3000
+    # book.save()
+
+    article = Article(create_time=now())
+    article.save()
     return render(request, 'index.html')
