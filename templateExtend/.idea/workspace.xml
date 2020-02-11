@@ -1,35 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f8d2162-f718-42b5-8a03-1fb39755c1d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7e8a844a-81b3-4aba-80fb-a24cbdf1b3c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../templateInclude/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../templateInclude/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
-    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -37,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1XeLOpaRqNquSGwucfHUPV8ONrk" />
+  <component name="ProjectId" id="1XeMcXo0J5Psmf7kXM2vyBdHUt6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,13 +35,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
-    <configuration name="templateInclude" type="Python.DjangoServer" factoryName="Django server">
-      <module name="templateInclude" />
+    <configuration name="templateExtend" type="Python.DjangoServer" factoryName="Django server">
+      <module name="templateExtend" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="DJANGO_SETTINGS_MODULE" value="templateInclude.settings" />
+        <env name="DJANGO_SETTINGS_MODULE" value="templateExtend.settings" />
       </envs>
       <option name="SDK_HOME" value="D:\Users\Null\AppData\Local\Continuum\miniconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -74,7 +59,7 @@
         </ENTRIES>
       </EXTENSION>
       <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8100" />
+      <option name="port" value="8080" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
@@ -102,49 +87,42 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4f8d2162-f718-42b5-8a03-1fb39755c1d9" name="Default Changelist" comment="" />
-      <created>1581401583901</created>
+      <changelist id="7e8a844a-81b3-4aba-80fb-a24cbdf1b3c9" name="Default Changelist" comment="" />
+      <created>1581402186763</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1581401583901</updated>
-      <workItem from="1581401585918" duration="600000" />
+      <updated>1581402186763</updated>
+      <workItem from="1581402188813" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581401723513">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581402335659">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581401723513" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581402186397">
+    <state x="223" y="68" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402335659" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581402602730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402186397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581402186397">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402602730" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581402602729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402186397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581402186397">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402602729" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581402602729">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402186397" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581402186397">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402602729" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581402602730">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402186397" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402602730" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581402257176">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581402257176" />
   </component>
 </project>
