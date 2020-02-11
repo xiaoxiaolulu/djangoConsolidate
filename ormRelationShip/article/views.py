@@ -2,7 +2,8 @@ from django.http import HttpResponse
 from django.shortcuts import render
 
 # Create your views here.
-from article.models import Article, Category
+
+from article.models import Article, Category, Tag
 
 
 def index(request):
@@ -34,8 +35,17 @@ def one_to_many_view(request):
 
     # ca = Category.objects.first()
     # print(ca.articles.first())
-    
+
     ca = Category.objects.first()
     ar = Article(title='12', content='222')
     ca.articles.add(ar, bulk=False)
+    return HttpResponse('success')
+
+
+def many_to_many_view(request):
+
+    art = Article.objects.first()
+    tag = Tag(name="热门文章")
+    tag.save()
+    art.tag_set.add(tag)
     return HttpResponse('success')

@@ -17,3 +17,8 @@ class Article(models.Model):
     # def __str__(self):
     #     return f"{self.title}  {self.content} {self.category}"
 
+
+class Tag(models.Model):
+
+    name = models.CharField(max_length=100)
+    article = models.ManyToManyField('Article')

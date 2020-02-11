@@ -23,5 +23,6 @@ urlpatterns = [
     path('', views.index),
     path('a/', views.del_view),
     path('b/', views.one_to_many_view),
-    path('c/', views2.one_to_one_view)
+    path('c/', views2.one_to_one_view),
+    path('d/', views.many_to_many_view)
 ]
