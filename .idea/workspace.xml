@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\djangoConsolidate\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XbtNbwPwA2yOrqenzNK7LYn41v" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="djangoConsolidate" type="Python.DjangoServer" factoryName="Django server">
+      <module name="djangoConsolidate" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="" />
+      <created>1581326582138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581326582138</updated>
+      <workItem from="1581326586336" duration="18000" />
+      <workItem from="1581327361242" duration="1204000" />
+      <workItem from="1581335408273" duration="25893000" />
+    </task>
+    <task id="LOCAL-00001" summary="URL转化器">
+      <created>1581338931367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581338931367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="URL转化器">
+      <created>1581339023574</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581339023574</updated>
+    </task>
+    <task id="LOCAL-00003" summary="URL模块化">
+      <created>1581339827222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1581339827222</updated>
+    </task>
+    <task id="LOCAL-00004" summary="路由命名与反转">
+      <created>1581341255598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1581341255598</updated>
+    </task>
+    <task id="LOCAL-00005" summary="实例命名空间">
+      <created>1581341733412</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1581341733412</updated>
+    </task>
+    <task id="LOCAL-00006" summary="include 函数详解">
+      <created>1581342280458</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1581342280458</updated>
+    </task>
+    <task id="LOCAL-00007" summary="repath 函数详解">
+      <created>1581343184334</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581343184334</updated>
+    </task>
+    <task id="LOCAL-00008" summary="reverse 函数">
+      <created>1581347549395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581347549395</updated>
+    </task>
+    <task id="LOCAL-00009" summary="定义path转化器">
+      <created>1581349252764</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581349252764</updated>
+    </task>
+    <task id="LOCAL-00010" summary="url映射指定默认参数">
+      <created>1581349868921</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1581349868921</updated>
+    </task>
+    <task id="LOCAL-00011" summary="模板变量">
+      <created>1581394896644</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1581394896644</updated>
+    </task>
+    <task id="LOCAL-00012" summary="模板IF">
+      <created>1581395447293</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1581395447293</updated>
+    </task>
+    <task id="LOCAL-00013" summary="模板FOR">
+      <created>1581396054647</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581396054647</updated>
+    </task>
+    <task id="LOCAL-00014" summary="模板WITH">
+      <created>1581396969248</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581396969248</updated>
+    </task>
+    <task id="LOCAL-00015" summary="模板URL">
+      <created>1581398038083</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581398038083</updated>
+    </task>
+    <task id="LOCAL-00016" summary="模板Autoescape">
+      <created>1581398548604</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1581398548604</updated>
+    </task>
+    <task id="LOCAL-00017" summary="模板verbatim">
+      <created>1581399061933</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1581399061933</updated>
+    </task>
+    <task id="LOCAL-00018" summary="模板过滤器">
+      <created>1581399861920</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1581399861920</updated>
+    </task>
+    <task id="LOCAL-00019" summary="模板自定义过滤器">
+      <created>1581401486396</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1581401486396</updated>
+    </task>
+    <task id="LOCAL-00020" summary="模板include">
+      <created>1581402086928</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1581402086928</updated>
+    </task>
+    <task id="LOCAL-00021" summary="模板继承">
+      <created>1581402780617</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581402780617</updated>
+    </task>
+    <task id="LOCAL-00022" summary="模板静态文件加载">
+      <created>1581404029017</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1581404029017</updated>
+    </task>
+    <task id="LOCAL-00023" summary="操作原生sql">
+      <created>1581413396589</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1581413396589</updated>
+    </task>
+    <task id="LOCAL-00024" summary="模型创建">
+      <created>1581414584264</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581414584264</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ORM基本增删改查">
+      <created>1581415503598</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1581415503598</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Field常用字段">
+      <created>1581418090012</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1581418090012</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Meta">
+      <created>1581423732250</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1581423732250</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ORM外键">
+      <created>1581424949170</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1581424949170</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ORM外键删除">
+      <created>1581425843028</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1581425843029</updated>
+    </task>
+    <task id="LOCAL-00030" summary="一对一">
+      <created>1581426962332</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1581426962332</updated>
+    </task>
+    <task id="LOCAL-00031" summary="一对多">
+      <created>1581428050965</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1581428050965</updated>
+    </task>
+    <task id="LOCAL-00032" summary="多对多">
+      <created>1581429013586</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1581429013586</updated>
+    </task>
+    <task id="LOCAL-00033" summary="exact &amp; iexact">
+      <created>1581432974250</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1581432974250</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="定义path转化器" />
+    <MESSAGE value="url映射指定默认参数" />
+    <MESSAGE value="模板变量" />
+    <MESSAGE value="模板IF" />
+    <MESSAGE value="模板FOR" />
+    <MESSAGE value="模板WITH" />
+    <MESSAGE value="模板URL" />
+    <MESSAGE value="模板Autoescape" />
+    <MESSAGE value="模板verbatim" />
+    <MESSAGE value="模板过滤器" />
+    <MESSAGE value="模板自定义过滤器" />
+    <MESSAGE value="模板include" />
+    <MESSAGE value="模板继承" />
+    <MESSAGE value="模板静态文件加载" />
+    <MESSAGE value="操作原生sql" />
+    <MESSAGE value="模型创建" />
+    <MESSAGE value="ORM基本增删改查" />
+    <MESSAGE value="Field常用字段" />
+    <MESSAGE value="Meta" />
+    <MESSAGE value="ORM外键" />
+    <MESSAGE value="ORM外键删除" />
+    <MESSAGE value="一对一" />
+    <MESSAGE value="一对多" />
+    <MESSAGE value="多对多" />
+    <MESSAGE value="exact &amp; iexact" />
+    <option name="LAST_COMMIT_MESSAGE" value="exact &amp; iexact" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581432970529">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581432970529" />
+    <state x="611" y="303" key="Github.ShareDialog" timestamp="1581327757027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="611" y="303" key="Github.ShareDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327757027" />
+    <state x="604" y="114" key="Github.UntrackedFilesDialog" timestamp="1581327768054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581432977919">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581432977919" />
+  </component>
+</project>
