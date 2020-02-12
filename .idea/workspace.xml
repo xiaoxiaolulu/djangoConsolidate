@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/ormQuerySet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ormAgg/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ormAgg/front/views.py" afterDir="false" />
@@ -39,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ormAgg" />
   </component>
   <component name="RunManager">
     <configuration name="djangoConsolidate" type="Python.DjangoServer" factoryName="Django server">
@@ -92,7 +98,7 @@
       <workItem from="1581327361242" duration="1204000" />
       <workItem from="1581335408273" duration="25893000" />
       <workItem from="1581433641600" duration="2053000" />
-      <workItem from="1581489581931" duration="7618000" />
+      <workItem from="1581489581931" duration="8520000" />
     </task>
     <task id="LOCAL-00001" summary="URL转化器">
       <created>1581338931367</created>
@@ -416,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581498295955</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Q表达式">
+      <created>1581498964016</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1581498964016</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +449,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="模板静态文件加载" />
     <MESSAGE value="操作原生sql" />
     <MESSAGE value="模型创建" />
     <MESSAGE value="ORM基本增删改查" />
@@ -461,13 +473,18 @@
     <MESSAGE value="max min" />
     <MESSAGE value="sum" />
     <MESSAGE value="F表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="F表达式" />
+    <MESSAGE value="Q表达式" />
+    <option name="LAST_COMMIT_MESSAGE" value="Q表达式" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581498292365">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581498961034">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498292365" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498961034" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581499251359" />
     <state x="611" y="303" key="Github.ShareDialog" timestamp="1581327757027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -476,10 +493,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581498302695">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581498970019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498302695" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498970019" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581490288953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

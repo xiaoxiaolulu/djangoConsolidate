@@ -91,3 +91,24 @@ def index07(request):
     for boo in book1:
         print(boo.name, boo.price, boo.rating)
     return HttpResponse('success')
+
+
+def index08(request):
+    print(type(Book.objects))
+    from django.db.models.manager import Manager
+    return HttpResponse('success')
+
+
+def index09(request):
+    # books = Book.objects.filter(id__gte=2)
+    # print(type(books))
+    # from django.db.models.query import QuerySet
+    # b = books.filter(~Q(id=3))
+    # for i in b:
+    #     print(i.name)
+
+    # book2 = Book.objects.filter(id__gte=2).exclude(id=3)
+    # for b in book2:
+    #     print(b)
+
+    return HttpResponse('success')

@@ -1,4 +1,4 @@
-"""ormAgg URL Configuration
+"""ormQuerySet URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/3.0/topics/http/urls/
@@ -16,17 +16,6 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from front import views
-
 urlpatterns = [
-    path('', views.index),
-    path('a/', views.index02),
-    path('b/', views.index03),
-    path('c/', views.index04),
-    path('d/', views.index05),
-    path('e/', views.index06),
-    path('f/', views.index07),
-    path('g/', views.index08),
-    path('z/', views.index09)
+    path('admin/', admin.site.urls),
 ]
-
