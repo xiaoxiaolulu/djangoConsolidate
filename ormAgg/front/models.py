@@ -37,6 +37,7 @@ class BookOrder(models.Model):
 
     book = models.ForeignKey('Book', on_delete=models.CASCADE)
     price = models.FloatField()
+    create_time = models.DateTimeField(auto_now_add=True, null=True)
 
     class Meta:
         db_table = 'book_order'

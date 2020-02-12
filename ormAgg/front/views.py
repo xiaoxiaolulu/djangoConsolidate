@@ -3,8 +3,8 @@ from django.shortcuts import render
 
 
 # Create your views here.
-from front.models import Book, Author
-from django.db.models import Avg, Count, Max, Min
+from front.models import Book, Author, BookOrder
+from django.db.models import Avg, Count, Max, Min, Sum
 from django.db import connection
 
 
@@ -54,4 +54,23 @@ def index04(request):
     books = Book.objects.annotate(max=Max('bookorder__price'), min=Min('bookorder__price'))
     for book in books:
         print(book.name, book.min, book.max)
+    return HttpResponse('success')
+
+
+def index05(request):
+    # book = BookOrder.objects.aggregate(total=Sum('price'))
+    # print(book)
+    #
+    # order = Book.objects.annotate(total=Sum('bookorder__price'))
+    # for o in order:
+    #     print(o.name, o.total)
+
+    book1 = BookOrder.objects.filter(create_time__year=2020).aggregate(total=Sum('price'))
+    print(book1)
+    print(connection.queries)
+
+    order1 = Book.objects.filter(bookorder__create_time__year=2020).annotate(total=Sum('price'))
+    for o in order1:
+        print(o.name, o.total)
+
     return HttpResponse('success')
