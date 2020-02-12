@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from front.models import Book, Author
-from django.db.models import Avg, Count
+from django.db.models import Avg, Count, Max, Min
 from django.db import connection
 
 
@@ -43,4 +43,15 @@ def index03(request):
     # SELECT `book`.`id`, `book`.`name`, `book`.`pages`, `book`.`price`, `book`.`rating`, `book`.`author_id`,
     # `book`.`publisher_id`, COUNT(`book_order`.`id`) AS `book_nums` FROM `book` LEFT OUTER JOIN `book_order` ON
     # (`book`.`id` = `book_order`.`book_id`) GROUP BY `book`.`id` ORDER BY NULL
+    return HttpResponse('success')
+
+
+def index04(request):
+    author = Author.objects.aggregate(max=Max('age'), min=Min('age'))
+    print(author)
+    print(connection.queries)
+
+    books = Book.objects.annotate(max=Max('bookorder__price'), min=Min('bookorder__price'))
+    for book in books:
+        print(book.name, book.min, book.max)
     return HttpResponse('success')
