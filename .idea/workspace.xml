@@ -92,14 +92,8 @@
       <workItem from="1581327361242" duration="1204000" />
       <workItem from="1581335408273" duration="25893000" />
       <workItem from="1581433641600" duration="2053000" />
-      <workItem from="1581489581931" duration="13291000" />
-    </task>
-    <task id="LOCAL-00005" summary="实例命名空间">
-      <created>1581341733412</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1581341733412</updated>
+      <workItem from="1581489581931" duration="13545000" />
+      <workItem from="1581519892615" duration="247000" />
     </task>
     <task id="LOCAL-00006" summary="include 函数详解">
       <created>1581342280458</created>
@@ -437,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581513033633</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="get_or_create和bulk_create">
+      <created>1581513708759</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1581513708759</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -457,7 +458,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ORM外键删除" />
     <MESSAGE value="一对一" />
     <MESSAGE value="一对多" />
     <MESSAGE value="多对多" />
@@ -482,13 +482,14 @@
     <MESSAGE value="select_related" />
     <MESSAGE value="prefetch_related" />
     <MESSAGE value="defer only" />
-    <option name="LAST_COMMIT_MESSAGE" value="defer only" />
+    <MESSAGE value="get_or_create和bulk_create" />
+    <option name="LAST_COMMIT_MESSAGE" value="get_or_create和bulk_create" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581513029676">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581513705438">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581513029676" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581513705438" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -501,10 +502,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581513037421">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581513712212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581513037421" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581513712212" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581490288953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

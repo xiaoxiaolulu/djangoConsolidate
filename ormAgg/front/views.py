@@ -210,3 +210,9 @@ def index15(request):
     )
     print(publisher)
     return HttpResponse('success')
+
+
+def index16(request):
+    res = Book.objects.filter(name="三国演义").exists()
+    print(res)
+    return HttpResponse("success")

@@ -33,6 +33,7 @@ urlpatterns = [
     path('aa/', views.index12),
     path('bb/', views.index13),
     path('cc/', views.index14),
-    path('dd/', views.index15)
+    path('dd/', views.index15),
+    path('ee/', views.index16)
 ]
 
