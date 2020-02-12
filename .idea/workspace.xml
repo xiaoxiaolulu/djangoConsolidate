@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/ormQuerySet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ormAgg/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/ormAgg/front/views.py" afterDir="false" />
@@ -98,7 +92,7 @@
       <workItem from="1581327361242" duration="1204000" />
       <workItem from="1581335408273" duration="25893000" />
       <workItem from="1581433641600" duration="2053000" />
-      <workItem from="1581489581931" duration="8520000" />
+      <workItem from="1581489581931" duration="9599000" />
     </task>
     <task id="LOCAL-00001" summary="URL转化器">
       <created>1581338931367</created>
@@ -429,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581498964016</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="filter、exclude、annotate">
+      <created>1581508209994</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1581508209994</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +450,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="操作原生sql" />
     <MESSAGE value="模型创建" />
     <MESSAGE value="ORM基本增删改查" />
     <MESSAGE value="Field常用字段" />
@@ -474,13 +474,14 @@
     <MESSAGE value="sum" />
     <MESSAGE value="F表达式" />
     <MESSAGE value="Q表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="Q表达式" />
+    <MESSAGE value="filter、exclude、annotate" />
+    <option name="LAST_COMMIT_MESSAGE" value="filter、exclude、annotate" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581498961034">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581508205645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498961034" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581508205645" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -493,10 +494,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581498970019">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581508217937">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581498970019" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581508217937" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581490288953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

@@ -112,3 +112,24 @@ def index09(request):
     #     print(b)
 
     return HttpResponse('success')
+
+
+def index10(request):
+    # book_order = BookOrder.objects.order_by("create_time")
+    # for book in book_order:
+    #     print(book.id, book.price, book.create_time)
+    #
+    # books = BookOrder.objects.order_by("-create_time")
+    # for book in books:
+    #     print(book.id, book.price, book.create_time)
+
+    # 根据时间和价格排序
+    # books1 = BookOrder.objects.order_by("-create_time", "-price")
+    # for book in books1:
+    #     print(book.id, book.price, book.create_time)
+
+    # 根据评分排序
+    order = BookOrder.objects.order_by('book__rating')
+    for o in order:
+        print(o.id, o.book.rating)
+    return HttpResponse('success')
