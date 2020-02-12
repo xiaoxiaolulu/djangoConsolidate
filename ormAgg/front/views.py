@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 
 # Create your views here.
-from front.models import Book, Author, BookOrder
+from front.models import Book, Author, BookOrder, Publisher
 from django.db.models import Avg, Count, Max, Min, Sum, F, Q, Prefetch
 from django.db import connection
 
@@ -196,4 +196,17 @@ def index14(request):
     books = Book.objects.only("name")
     for book in books:
         print(book.name)
+    return HttpResponse('success')
+
+
+def index15(request):
+    # result = Publisher.objects.get_or_create(name="啊哈哈哈")
+    # print(result)
+    publisher = Publisher.objects.bulk_create(
+        [
+            Publisher(name='123132'),
+            Publisher(name='2313213213')
+        ]
+    )
+    print(publisher)
     return HttpResponse('success')
