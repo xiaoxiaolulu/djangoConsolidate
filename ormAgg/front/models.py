@@ -41,3 +41,11 @@ class BookOrder(models.Model):
 
     class Meta:
         db_table = 'book_order'
+
+
+class Employee(models.Model):
+
+    name = models.CharField(max_length=100)
+    age = models.IntegerField()
+    salary = models.FloatField()
+    email = models.EmailField()
