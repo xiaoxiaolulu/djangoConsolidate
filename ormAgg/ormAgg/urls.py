@@ -31,5 +31,6 @@ urlpatterns = [
     path('m/', views.index10),
     path('l/', views.index11),
     path('aa/', views.index12),
+    path('bb/', views.index13)
 ]
 

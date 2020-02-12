@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from front.models import Book, Author, BookOrder
-from django.db.models import Avg, Count, Max, Min, Sum, F, Q
+from django.db.models import Avg, Count, Max, Min, Sum, F, Q, Prefetch
 from django.db import connection
 
 
@@ -163,4 +163,26 @@ def index12(request):
     books = Book.objects.select_related('author')
     for book in books:
         print(book.author.name)
+    return HttpResponse('success')
+
+
+def index13(request):
+    # books = Book.objects.all()
+    # for book in books:
+    #     print(book.name)
+    #     orders = book.bookorder_set.all()
+    #     for order in orders:
+    #         print(order.id)
+
+    # books = Book.objects.prefetch_related('author')
+    # for book in books:
+    #     print(book.author, book.name)
+
+    prefetch = Prefetch('bookorder_set', queryset=BookOrder.objects.filter(price__gte=90))
+    books = Book.objects.prefetch_related(prefetch)
+    for book in books:
+        print(book.name)
+        orders = book.bookorder_set.all()
+        for order in orders:
+            print(order.id)
     return HttpResponse('success')
