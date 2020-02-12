@@ -66,3 +66,21 @@ def index02(request):
     art3 = Article.objects.filter(id__lte=2)
     print(art3.query)
     return HttpResponse('success')
+
+
+def index03(request):
+    # 首字母为xxx
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`title` LIKE BINARY 干%
+    art = Article.objects.filter(title__startswith='干')
+    print(art.query)
+
+    # 忽略大小写
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`title` LIKE 干%
+    art1 = Article.objects.filter(title__istartswith='干')
+    print(art1.query)
+
+    # title__iendswith 忽略大小写
+    # title__endswith 以xxx结束
+    return HttpResponse('success')
