@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from front.models import Book, Author, BookOrder
-from django.db.models import Avg, Count, Max, Min, Sum, F
+from django.db.models import Avg, Count, Max, Min, Sum, F, Q
 from django.db import connection
 
 
@@ -79,4 +79,15 @@ def index05(request):
 def index06(request):
     Book.objects.update(price=F('price')+10)
     print(connection.queries[-1])
+    return HttpResponse('success')
+
+
+def index07(request):
+    book = Book.objects.filter(price__gte=100, rating__gte=4.85)
+    for boo in book:
+        print(boo.name, boo.price, boo.rating)
+
+    book1 = Book.objects.filter(Q(price__gte=100) & Q(rating__gte=4.85))
+    for boo in book1:
+        print(boo.name, boo.price, boo.rating)
     return HttpResponse('success')

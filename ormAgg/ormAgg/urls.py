@@ -25,5 +25,6 @@ urlpatterns = [
     path('c/', views.index04),
     path('d/', views.index05),
     path('e/', views.index06),
+    path('f/', views.index07),
 ]
 
