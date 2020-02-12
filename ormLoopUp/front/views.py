@@ -98,3 +98,31 @@ def index04(request):
     art = Article.objects.filter(create_time__range=(start, end))
     print(art.query)
     return HttpResponse('success')
+
+
+def index05(request):
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article` WHERE DATE(CONVERT_TZ(`front_article`.`create_time`, 'UTC', 'Asia/Shanghai')) = 2019-02-12
+    from datetime import datetime, time
+    art = Article.objects.filter(create_time__date=datetime(year=2019, month=2, day=12))
+    print(art.query)
+    print(art)
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article` WHERE `front_article`.`create_time` BETWEEN 2017-12-31 16:00:00 AND 2018-12-31 15:59:59.999999
+    art1 = Article.objects.filter(create_time__year=2018)
+    print(art1.query)
+    print(art1)
+
+    # 1表示星期天
+    art2 = Article.objects.filter(create_time__week_day=5)
+
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article` WHERE TIME(CONVERT_TZ(`front_article`.`create_time`, 'UTC', 'Asia/Shanghai'))
+    # BETWEEN 17:10:27 AND 17:10:28
+    start1 = time(hour=17, minute=10, second=27)
+    end1 = time(hour=17, minute=10, second=28)
+    art3 = Article.objects.filter(create_time__time__range=(start1, end1))
+    print(art3.query)
+    return HttpResponse('success')
