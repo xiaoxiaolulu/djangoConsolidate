@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eef5d2fe-528f-4e6f-9454-90edd624230e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/migrations/0002_auto_20200211_2313.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ormLoopUp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ormLoopUp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +103,8 @@
       <option name="presentableId" value="Default" />
       <updated>1581431485946</updated>
       <workItem from="1581431488189" duration="1993000" />
-      <workItem from="1581433642491" duration="1324000" />
+      <workItem from="1581433642491" duration="1487000" />
+      <workItem from="1581489581417" duration="519000" />
     </task>
     <servers />
   </component>

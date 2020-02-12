@@ -38,3 +38,31 @@ def index(request):
     category = Category.objects.filter(article__id__in=[1, 2])
     print(category.query)
     return HttpResponse("success")
+
+
+def index02(request):
+
+    # 大于
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`id` > 2
+    art = Article.objects.filter(id__gt=2)
+    print(art.query)
+
+    # 大于等于
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`id` >= 2
+    art1 = Article.objects.filter(id__gte=2)
+    print(art1.query)
+
+    # 小于
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`id` < 2
+    art2 = Article.objects.filter(id__lt=2)
+    print(art2.query)
+
+    # 小于等于
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`
+    # FROM `front_article` WHERE `front_article`.`id` <= 2
+    art3 = Article.objects.filter(id__lte=2)
+    print(art3.query)
+    return HttpResponse('success')
