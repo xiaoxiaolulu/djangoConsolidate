@@ -34,6 +34,7 @@ urlpatterns = [
     path('bb/', views.index13),
     path('cc/', views.index14),
     path('dd/', views.index15),
-    path('ee/', views.index16)
+    path('ee/', views.index16),
+    path('hh/', views.index17)
 ]
 

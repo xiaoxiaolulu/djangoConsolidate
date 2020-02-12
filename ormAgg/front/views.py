@@ -216,3 +216,11 @@ def index16(request):
     res = Book.objects.filter(name="三国演义").exists()
     print(res)
     return HttpResponse("success")
+
+
+def index17(request):
+    book = Book.objects.filter(bookorder__price__gte=80).distinct()
+    for bo in book:
+        print(bo.name)
+    return HttpResponse("success")
+
