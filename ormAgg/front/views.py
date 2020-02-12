@@ -133,3 +133,23 @@ def index10(request):
     for o in order:
         print(o.id, o.book.rating)
     return HttpResponse('success')
+
+
+def index11(request):
+    # books = Book.objects.values("id", 'name')
+    # print(type(books))
+    # for book in books:
+    #     print(book)
+    #
+    # book1 = Book.objects.values('author__name')
+    # for b1 in book1:
+    #     print(b1)
+
+    # book = Book.objects.values('id', 'name', order_nums=Count('bookorder'))
+    # for b in book:
+    #     print(b)
+
+    book = Book.objects.values_list('id', 'name')
+    for b in book:
+        print(b)
+    return HttpResponse('success')

@@ -92,7 +92,7 @@
       <workItem from="1581327361242" duration="1204000" />
       <workItem from="1581335408273" duration="25893000" />
       <workItem from="1581433641600" duration="2053000" />
-      <workItem from="1581489581931" duration="9599000" />
+      <workItem from="1581489581931" duration="10452000" />
     </task>
     <task id="LOCAL-00001" summary="URL转化器">
       <created>1581338931367</created>
@@ -430,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581508209994</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="order by">
+      <created>1581509366264</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1581509366264</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="模型创建" />
     <MESSAGE value="ORM基本增删改查" />
     <MESSAGE value="Field常用字段" />
     <MESSAGE value="Meta" />
@@ -475,13 +481,14 @@
     <MESSAGE value="F表达式" />
     <MESSAGE value="Q表达式" />
     <MESSAGE value="filter、exclude、annotate" />
-    <option name="LAST_COMMIT_MESSAGE" value="filter、exclude、annotate" />
+    <MESSAGE value="order by" />
+    <option name="LAST_COMMIT_MESSAGE" value="order by" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581508205645">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581509362926">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581508205645" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581509362926" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -494,10 +501,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581508217937">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581509371127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581508217937" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581509371127" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581490288953">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

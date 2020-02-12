@@ -28,6 +28,7 @@ urlpatterns = [
     path('f/', views.index07),
     path('g/', views.index08),
     path('z/', views.index09),
-    path('m/', views.index10)
+    path('m/', views.index10),
+    path('l/', views.index11)
 ]
 
