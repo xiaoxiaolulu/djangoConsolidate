@@ -126,3 +126,19 @@ def index05(request):
     art3 = Article.objects.filter(create_time__time__range=(start1, end1))
     print(art3.query)
     return HttpResponse('success')
+
+
+def index06(request):
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article` WHERE `front_article`.`title` IS NULL
+
+    art = Article.objects.filter(title__isnull=True)
+    print(art)
+    print(art.query)
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article` WHERE REGEXP_LIKE(`front_article`.`title`, ^zh, 'c')
+    art1 = Article.objects.filter(title__regex=r"^zh")
+    print(art1.query)
+    return HttpResponse('success')
