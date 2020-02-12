@@ -186,3 +186,14 @@ def index13(request):
         for order in orders:
             print(order.id)
     return HttpResponse('success')
+
+
+def index14(request):
+    # books = Book.objects.defer("name")
+    # for book in books:
+    #     print(book)
+
+    books = Book.objects.only("name")
+    for book in books:
+        print(book.name)
+    return HttpResponse('success')
