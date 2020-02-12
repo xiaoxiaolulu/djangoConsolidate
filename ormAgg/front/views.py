@@ -153,3 +153,14 @@ def index11(request):
     for b in book:
         print(b)
     return HttpResponse('success')
+
+
+def index12(request):
+    # books = Book.objects.all()
+    # for book in books:
+    #     print(book.author.name)
+
+    books = Book.objects.select_related('author')
+    for book in books:
+        print(book.author.name)
+    return HttpResponse('success')
