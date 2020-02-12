@@ -84,3 +84,17 @@ def index03(request):
     # title__iendswith 忽略大小写
     # title__endswith 以xxx结束
     return HttpResponse('success')
+
+
+def index04(request):
+    from datetime import datetime
+    from django.utils.timezone import make_aware
+    start = make_aware(datetime(year=2019, month=2, day=12, hour=15, minute=2, second=0))
+    end = make_aware(datetime(year=2019, month=2, day=12, hour=16, minute=2, second=0))
+
+    # SELECT `front_article`.`id`, `front_article`.`title`, `front_article`.`content`, `front_article`.`category_id`,
+    # `front_article`.`create_time` FROM `front_article`
+    # WHERE `front_article`.`create_time` BETWEEN 2019-02-12 07:02:00 AND 2019-02-12 08:02:00
+    art = Article.objects.filter(create_time__range=(start, end))
+    print(art.query)
+    return HttpResponse('success')
