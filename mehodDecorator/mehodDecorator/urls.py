@@ -24,5 +24,7 @@ urlpatterns = [
     path('add/', views.add),
     path('home/', views.home, name='index'),
     path('signup/', views.signup, name='signup'),
-    path('a/', views.index02)
+    path('a/', views.index02),
+    path('f/', views.csv),
+    path('ff/', views.csv_template)
 ]
