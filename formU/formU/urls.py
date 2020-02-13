@@ -19,5 +19,6 @@ from front import views
 
 urlpatterns = [
     path('', views.IndexView.as_view()),
-    path('register/', views.Register.as_view())
+    path('register/', views.Register.as_view()),
+    path('book/', views.add_book)
 ]

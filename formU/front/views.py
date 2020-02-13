@@ -4,7 +4,7 @@ from django.shortcuts import render
 
 # Create your views here.
 from django.views.generic import View
-from front.forms import MessageBoardForm, RegisterForm
+from front.forms import MessageBoardForm, RegisterForm, AddBookForm
 from front.models import User
 
 
@@ -43,3 +43,17 @@ class Register(View):
         else:
             print(form.get_errors())
             return HttpResponse("注册失败")
+
+
+def add_book(request):
+
+    form = AddBookForm(request.POST)
+    if form.is_valid():
+        title = form.cleaned_data.get('title')
+        page = form.cleaned_data.get('page')
+        price = form.cleaned_data.get('price')
+        print(title, page, price)
+        return HttpResponse("成功")
+    else:
+        print(form.errors.get_json_data())
+        return HttpResponse("失败")
