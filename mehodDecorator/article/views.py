@@ -1,8 +1,10 @@
+import json
 
-from django.http import HttpResponse
+from django.http import HttpResponse, JsonResponse
 from django.shortcuts import render, redirect, reverse
 from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
+from django.core.handlers.wsgi import WSGIRequest
 
 
 # @require_http_methods(['GET'])
@@ -30,4 +32,14 @@ def home(request):
 
 
 def signup(request):
+    print(request)
     return HttpResponse("sign")
+
+
+def index02(request):
+    person = {
+        "name": "hahah"
+    }
+    # p_str = json.dumps(person)
+    # return HttpResponse(p_str, content_type='application/json')
+    return JsonResponse(person)
