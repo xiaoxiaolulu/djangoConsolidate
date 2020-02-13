@@ -2,16 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/formU/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/.idea/formU.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/front/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/formU/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formU/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formU/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/formU/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formU/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/formU/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formU/formU/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/formU/formU/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formU/front/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/formU/front/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formU/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/formU/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/formU/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/formU/front/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,14 +99,7 @@
       <workItem from="1581433641600" duration="2053000" />
       <workItem from="1581489581931" duration="13545000" />
       <workItem from="1581519892615" duration="2440000" />
-      <workItem from="1581568328002" duration="11882000" />
-    </task>
-    <task id="LOCAL-00021" summary="模板继承">
-      <created>1581402780617</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1581402780617</updated>
+      <workItem from="1581568328002" duration="14052000" />
     </task>
     <task id="LOCAL-00022" summary="模板静态文件加载">
       <created>1581404029017</created>
@@ -445,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581594993579</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="表单">
+      <created>1581601348470</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1581601348470</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +464,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sum" />
     <MESSAGE value="F表达式" />
     <MESSAGE value="Q表达式" />
     <MESSAGE value="filter、exclude、annotate" />
@@ -490,13 +488,14 @@
     <MESSAGE value="分页算法" />
     <MESSAGE value="类视图添加装饰器" />
     <MESSAGE value="错误状态处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="错误状态处理" />
+    <MESSAGE value="表单" />
+    <option name="LAST_COMMIT_MESSAGE" value="表单" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581594990673">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581601344212">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581594990673" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581601344212" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -509,10 +508,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581595041984">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581601352699">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581595041984" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581601352699" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581572904108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
