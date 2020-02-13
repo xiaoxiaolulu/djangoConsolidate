@@ -2,31 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/mehodDecorator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/article/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ormQuerySet/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ormAgg/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mehodDecorator/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/article/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/mehodDecorator/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,14 +94,7 @@
       <workItem from="1581433641600" duration="2053000" />
       <workItem from="1581489581931" duration="13545000" />
       <workItem from="1581519892615" duration="2440000" />
-      <workItem from="1581568328002" duration="2017000" />
-    </task>
-    <task id="LOCAL-00008" summary="reverse 函数">
-      <created>1581347549395</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1581347549395</updated>
+      <workItem from="1581568328002" duration="2967000" />
     </task>
     <task id="LOCAL-00009" summary="定义path转化器">
       <created>1581349252764</created>
@@ -460,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581520559879</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="限制请求method装饰器">
+      <created>1581574822683</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1581574822683</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="多对多" />
     <MESSAGE value="exact &amp; iexact" />
     <MESSAGE value="contains &amp; icontains" />
     <MESSAGE value="关联查询IN" />
@@ -505,13 +483,14 @@
     <MESSAGE value="get_or_create和bulk_create" />
     <MESSAGE value="count和exists" />
     <MESSAGE value="distinct" />
-    <option name="LAST_COMMIT_MESSAGE" value="distinct" />
+    <MESSAGE value="限制请求method装饰器" />
+    <option name="LAST_COMMIT_MESSAGE" value="限制请求method装饰器" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581520555258">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581574817938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581520555258" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581574817938" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -524,10 +503,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581520566887">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581574834149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581520566887" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581574834149" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581572904108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

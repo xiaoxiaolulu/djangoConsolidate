@@ -1,5 +1,6 @@
+
 from django.http import HttpResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse
 from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
 
@@ -18,3 +19,15 @@ def add(request):
     c = request.POST.get('content')
     Article.objects.create(title=t, content=c)
     return HttpResponse("success")
+
+
+def home(request):
+    username = request.GET.get('username')
+    if username:
+        return HttpResponse("home")
+    else:
+        return redirect(reverse('signup'))
+
+
+def signup(request):
+    return HttpResponse("sign")
