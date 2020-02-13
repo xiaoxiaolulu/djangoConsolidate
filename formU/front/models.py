@@ -14,4 +14,4 @@ class Book(models.Model):
 
     title = models.CharField(max_length=100)
     page = models.IntegerField()
-    price = models.FloatField(validators=validators.MaxValueValidator(limit_value=1000))
+    price = models.FloatField(validators=[validators.MaxValueValidator(limit_value=1000)])
