@@ -1,6 +1,6 @@
 import json
 
-from django.http import HttpResponse, JsonResponse
+from django.http import HttpResponse, JsonResponse, StreamingHttpResponse
 from django.shortcuts import render, redirect, reverse
 from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
@@ -68,4 +68,13 @@ def csv_template(request):
     template = loader.get_template('abc.txt')
     csv_template = template.render(content)
     response.content = csv_template
+    return response
+
+
+def large_csv(request):
+    response = StreamingHttpResponse(content_type='text/csv')
+    response['Content-Disposition'] = "attachment;filename='large.csv"
+    rows = ("Row {} {}\n".format(row, row) for row in range(0, 10000))
+    # response.streaming_content = ("username, age\n", "sasda, 18\n")
+    response.streaming_content = rows
     return response

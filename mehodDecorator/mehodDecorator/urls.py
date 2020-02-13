@@ -26,5 +26,6 @@ urlpatterns = [
     path('signup/', views.signup, name='signup'),
     path('a/', views.index02),
     path('f/', views.csv),
-    path('ff/', views.csv_template)
+    path('ff/', views.csv_template),
+    path('fff/', views.large_csv)
 ]

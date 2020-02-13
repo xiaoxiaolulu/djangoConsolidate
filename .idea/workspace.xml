@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mehodDecorator/templates/abc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mehodDecorator/article/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mehodDecorator/article/views.py" afterDir="false" />
@@ -95,14 +94,7 @@
       <workItem from="1581433641600" duration="2053000" />
       <workItem from="1581489581931" duration="13545000" />
       <workItem from="1581519892615" duration="2440000" />
-      <workItem from="1581568328002" duration="4990000" />
-    </task>
-    <task id="LOCAL-00011" summary="模板变量">
-      <created>1581394896644</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1581394896644</updated>
+      <workItem from="1581568328002" duration="5693000" />
     </task>
     <task id="LOCAL-00012" summary="模板IF">
       <created>1581395447293</created>
@@ -440,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581578281161</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="生成和下载csv文件">
+      <created>1581579350830</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1581579350830</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +459,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="关联查询IN" />
     <MESSAGE value="gt lt gte lte" />
     <MESSAGE value="startswitch &amp; endswitch" />
     <MESSAGE value="range" />
@@ -485,13 +483,14 @@
     <MESSAGE value="限制请求method装饰器" />
     <MESSAGE value="重定向" />
     <MESSAGE value="JsonResponse" />
-    <option name="LAST_COMMIT_MESSAGE" value="JsonResponse" />
+    <MESSAGE value="生成和下载csv文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成和下载csv文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581578278070">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581579347487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581578278070" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581579347487" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581499251359">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -504,10 +503,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="604" y="114" key="Github.UntrackedFilesDialog/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581327768054" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581578295055">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581579357028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581578295055" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581579357028" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581572904108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
