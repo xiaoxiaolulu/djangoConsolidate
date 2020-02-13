@@ -194,3 +194,10 @@ class ProfileView(View):
     # @method_decorator(login_required)
     # def dispatch(self, request, *args, **kwargs):
     #     return super(ProfileView, self).dispatch(request, *args, **kwargs)
+
+
+def index010(request):
+    a = 0
+    b = 1
+    c = b/a
+    return HttpResponse('首页')
