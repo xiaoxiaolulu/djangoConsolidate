@@ -6,7 +6,7 @@ from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
 from django.core.handlers.wsgi import WSGIRequest
 from django.template import loader
-from django.views.generic import View, TemplateView
+from django.views.generic import View, TemplateView, ListView
 
 
 # @require_http_methods(['GET'])
@@ -107,3 +107,29 @@ class AboutView(TemplateView):
         context = {'phone': '12313131'}
         return context
 
+
+def add_article(request):
+    articles = []
+    for x in range(0, 102):
+        article = Article(title=f"标题{x}", content=f"内容{x}", price=x)
+        articles.append(article)
+    Article.objects.bulk_create(articles)
+    return HttpResponse("添加成功")
+
+
+class ArticleListView(ListView):
+
+    model = Article
+    template_name = 'article_list.html'
+    context_object_name = 'articles'
+    paginate_by = 10
+    ordering = 'create_time'
+    page_kwarg = 'p'
+
+    def get_context_data(self, *, object_list=None, **kwargs):
+        context = super(ArticleListView, self).get_context_data(*kwargs)
+        context['username'] = 'was'
+        return context
+
+    def get_queryset(self):
+        return Article.objects.filter(id__lte=2)
