@@ -5,7 +5,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.views.generic import View
 from front.forms import MessageBoardForm, RegisterForm, AddBookForm
-from front.models import User
+from front.models import User, Article
 
 
 class IndexView(View):
@@ -65,8 +65,13 @@ class Write(View):
         return render(request, 'write.html')
 
     def post(self, request):
-        myfile = request.FILES.get('myfile')
-        with open('somefile.txt', 'wb') as fp:
-            for chunk in myfile.chunks():
-                fp.write(chunk)
+        # myfile = request.FILES.get('myfile')
+        # with open('somefile.txt', 'wb') as fp:
+        #     for chunk in myfile.chunks():
+        #         fp.write(chunk)
+
+        title = request.POST.get('title')
+        content = request.POST.get('content')
+        file = request.FILES.get('myfile')
+        Article.objects.create(title=title, content=content, thumbnial=file)
         return HttpResponse("成功")
