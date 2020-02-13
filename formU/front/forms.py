@@ -31,3 +31,13 @@ class RegisterForm(forms.Form):
         if pwd1 != pwd2:
             raise forms.ValidationError(message='两次密码不一致')
         return cleaned_data
+
+    def get_errors(self):
+        errors = self.errors.get_json_data()
+        new_errors = {}
+        for key, message in errors.items():
+            messages = []
+            for msg in message:
+                messages.append(msg['message'])
+            new_errors[key] = messages
+        return new_errors
