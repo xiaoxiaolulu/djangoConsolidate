@@ -27,5 +27,7 @@ urlpatterns = [
     path('a/', views.index02),
     path('f/', views.csv),
     path('ff/', views.csv_template),
-    path('fff/', views.large_csv)
+    path('fff/', views.large_csv),
+    path('book/', views.BookListView.as_view(), name='book'),
+    path('add_book/', views.AddBookViews.as_view(), name='add')
 ]

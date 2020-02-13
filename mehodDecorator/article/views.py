@@ -6,6 +6,7 @@ from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
 from django.core.handlers.wsgi import WSGIRequest
 from django.template import loader
+from django.views.generic import View
 
 
 # @require_http_methods(['GET'])
@@ -78,3 +79,21 @@ def large_csv(request):
     # response.streaming_content = ("username, age\n", "sasda, 18\n")
     response.streaming_content = rows
     return response
+
+
+class BookListView(View):
+
+    def get(self, request, *args, **kwargs):
+        return HttpResponse("哈哈哈")
+
+
+class AddBookViews(View):
+
+    def get(self, request, *args, **kwargs):
+        return render(request, 'add_book.html')
+
+    def post(self, request, *args, **kwargs):
+        name = request.POST.get('name')
+        author = request.POST.get('author')
+        print(name, author)
+        return HttpResponse('成功')
