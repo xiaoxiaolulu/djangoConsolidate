@@ -2,6 +2,8 @@ import json
 
 from django.http import HttpResponse, JsonResponse, StreamingHttpResponse
 from django.shortcuts import render, redirect, reverse
+from django.utils.decorators import method_decorator
+
 from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
 from django.core.handlers.wsgi import WSGIRequest
@@ -167,6 +169,28 @@ class ArticleListView(ListView):
             'num_pages': num_pages
         }
 
-
     # def get_queryset(self):
     #     return Article.objects.filter(id__lte=2)
+
+
+def login_required(func):
+
+    def wrapper(request, *args, **kwargs):
+        username = request.GET.get('username')
+        if username:
+            return func(request, *args, **kwargs)
+        else:
+            return redirect(reverse('index'))
+
+    return wrapper
+
+
+@method_decorator(login_required, name='dispatch')
+class ProfileView(View):
+
+    def get(self, request):
+        return HttpResponse("个人中心")
+
+    # @method_decorator(login_required)
+    # def dispatch(self, request, *args, **kwargs):
+    #     return super(ProfileView, self).dispatch(request, *args, **kwargs)
