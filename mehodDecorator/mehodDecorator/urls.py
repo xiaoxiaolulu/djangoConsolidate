@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.views.generic import TemplateView
 
 from article import views
 
@@ -29,5 +30,7 @@ urlpatterns = [
     path('ff/', views.csv_template),
     path('fff/', views.large_csv),
     path('book/', views.BookListView.as_view(), name='book'),
-    path('add_book/', views.AddBookViews.as_view(), name='add')
+    path('add_book/', views.AddBookViews.as_view(), name='add'),
+    path('about/', TemplateView.as_view(template_name='about.html')),
+    path('abab/', views.AboutView.as_view())
 ]

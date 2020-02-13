@@ -6,7 +6,7 @@ from article.models import Article
 from django.views.decorators.http import require_http_methods, require_GET
 from django.core.handlers.wsgi import WSGIRequest
 from django.template import loader
-from django.views.generic import View
+from django.views.generic import View, TemplateView
 
 
 # @require_http_methods(['GET'])
@@ -97,3 +97,13 @@ class AddBookViews(View):
         author = request.POST.get('author')
         print(name, author)
         return HttpResponse('成功')
+
+
+class AboutView(TemplateView):
+
+    template_name = 'about.html'
+
+    def get_context_data(self, **kwargs):
+        context = {'phone': '12313131'}
+        return context
+
