@@ -34,5 +34,5 @@ urlpatterns = [
     path('about/', TemplateView.as_view(template_name='about.html')),
     path('abab/', views.AboutView.as_view()),
     path('add_article/', views.add_article),
-    path('list/', views.ArticleListView.as_view())
+    path('list/', views.ArticleListView.as_view(), name='list')
 ]

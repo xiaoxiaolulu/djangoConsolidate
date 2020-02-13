@@ -3,14 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 <body>
 {{ username }}
-    <ul>
-        {% for article in articles %}
-            <li>{{ article.title }}</li>
+<ul>
+    {% for article in articles %}
+        <li>{{ article.title }}</li>
+    {% endfor %}
+    <ul class="pagination">
+        {#  上一页  #}
+        {% if page_obj.has_previous %}
+            <li class="page-item"><a class="page-link" href="{% url 'list' %}?p={{ page_obj.previous_page_number }}">上一页</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link" href="javascript:void(0)">上一页</a></li>
+        {% endif %}
+
+        {#  中间页码  #}
+        {% for page in paginator.page_range %}
+                {% if page == page_obj.number %}
+                    <li class="page-item active"><a class="page-link" href="javascript:void(0)">{{ page }}</a></li>
+                {% else %}
+                    <li class="page-item"><a class="page-link" href="{% url 'list' %}?p={{ page }}">{{ page }}</a></li>
+                {% endif %}
         {% endfor %}
-        
+
+        {#  下一页  #}
+        {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link" href="{% url 'list' %}?p={{ page_obj.next_page_number }}">下一页</a></li>
+        {% else %}
+            <li class="page-item disabled"><a class="page-link" href="javascript:void(0)">下一页</a></li>
+        {% endif %}
     </ul>
+</ul>
 </body>
 </html>
