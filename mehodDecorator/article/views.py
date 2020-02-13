@@ -129,14 +129,44 @@ class ArticleListView(ListView):
     def get_context_data(self, *, object_list=None, **kwargs):
         context = super(ArticleListView, self).get_context_data(*kwargs)
         context['username'] = 'was'
-        # paginator = context.get('paginator')
+        paginator = context.get('paginator')
         # print(paginator.count)
         # print(paginator.num_pages)
         # print(paginator.page_range)
-        # page = context.get('page_obj')
+        page = context.get('page_obj')
         # print(page.has_next())
         # print(page.next_page_number())
+        pagination_data = self.get_pagination_data(paginator, page)
+        context.update(pagination_data)
         return context
+
+    def get_pagination_data(self, paginator, page_obj, around_count=2):
+        current_page = page_obj.number
+        num_pages = paginator.num_pages
+
+        left_has_more = False
+        right_has_more = False
+
+        if current_page <= around_count + 2:
+            left_pages = range(1, current_page)
+        else:
+            left_has_more = True
+            left_pages = range(current_page-around_count, current_page)
+
+        if current_page >= num_pages - around_count - 1:
+            right_pages = range(current_page+1, num_pages+1)
+        else:
+            right_has_more = True
+            right_pages = range(current_page+1, current_page+around_count+1)
+        return {
+            'left_pages': left_pages,
+            'right_pages': right_pages,
+            'current_page': current_page,
+            'left_has_more': left_has_more,
+            'right_has_more': right_has_more,
+            'num_pages': num_pages
+        }
+
 
     # def get_queryset(self):
     #     return Article.objects.filter(id__lte=2)
