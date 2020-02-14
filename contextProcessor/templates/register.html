@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block body %}
+    <form action="" method="post">
+        <table>
+            <tbody>
+                <tr>
+                    <td>用户名：</td>
+                    <td><input type="text" name="username"></td>
+                </tr>
+                <tr>
+                    <td>手机号码：</td>
+                    <td><input type="text" name="telephone"></td>
+                </tr>
+                <tr>
+                    <td>密码：</td>
+                    <td><input type="text" name="password"></td>
+                </tr>
+                <tr>
+                    <td>重复密码密码：</td>
+                    <td><input type="text" name="password_repeat"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="提交"></td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+{% endblock %}
