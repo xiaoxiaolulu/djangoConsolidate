@@ -2,6 +2,13 @@ from django.shortcuts import render, redirect, reverse
 from django.views.generic import View
 from front.forms import RegisterForm, LoginForm
 from front.models import User
+from django.contrib import messages
+
+# 内置的上下文处理器
+# from django.template.context_processors import debug
+# from django.template.context_processors import request
+# from django.contrib.auth.context_processors import auth
+# from django.contrib.messages.context_processors import messages
 
 
 def index(request):
@@ -30,10 +37,13 @@ class SignView(View):
                 request.session['user_id'] = user.id
                 return redirect(reverse('index'))
             else:
+                messages.info(request, '用户或密码错误')
+                # messages.add_message(request, messages.INFO, '用户或密码错误')
                 return redirect(reverse('sign'))
         else:
-            errors = form.errors.get_json_data()
-            print(errors)
+            errors = form.get_error()
+            for error in errors:
+                messages.info(request, error)
             return redirect(reverse('sign'))
     
 

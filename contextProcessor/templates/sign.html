@@ -15,6 +15,15 @@
                     <td></td>
                     <td><input type="submit" value="提交"></td>
                 </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        {% for message in messages %}
+                            {{ message }}
+                        {% endfor %}
+
+                    </td>
+                </tr>
             </tbody>
         </table>
     </form>

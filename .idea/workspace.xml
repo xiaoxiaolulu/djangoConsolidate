@@ -2,34 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/contextProcessor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/contextProcessor/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/contextProcessor/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/contextProcessor/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/contextProcessor/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/contextProcessor/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/front/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contextProcessor/templates/sign.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contextProcessor/front/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/contextProcessor/front/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contextProcessor/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/contextProcessor/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contextProcessor/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/contextProcessor/front/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contextProcessor/templates/sign.html" beforeDir="false" afterPath="$PROJECT_DIR$/contextProcessor/templates/sign.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,14 +137,7 @@
       <workItem from="1581669387367" duration="618000" />
       <workItem from="1581671189705" duration="134000" />
       <workItem from="1581672153978" duration="88000" />
-      <workItem from="1581672545062" duration="6177000" />
-    </task>
-    <task id="LOCAL-00030" summary="一对一">
-      <created>1581426962332</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1581426962332</updated>
+      <workItem from="1581672545062" duration="7073000" />
     </task>
     <task id="LOCAL-00031" summary="一对多">
       <created>1581428050965</created>
@@ -505,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581687696647</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="自定义上下文处理器">
+      <created>1581694569162</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1581694569162</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="get_or_create和bulk_create" />
     <MESSAGE value="count和exists" />
     <MESSAGE value="distinct" />
     <MESSAGE value="限制请求method装饰器" />
@@ -550,13 +526,14 @@
     <MESSAGE value="operateMemcached" />
     <MESSAGE value="Memcached" />
     <MESSAGE value="session" />
-    <option name="LAST_COMMIT_MESSAGE" value="session" />
+    <MESSAGE value="自定义上下文处理器" />
+    <option name="LAST_COMMIT_MESSAGE" value="自定义上下文处理器" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581687692621">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581694564779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581687692621" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581694564779" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581674486754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -589,10 +566,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673646733" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581687701129">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581694584601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581687701129" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581694584601" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581672545057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
