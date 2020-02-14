@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/operateMemcached/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/djangoConsolidate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/djangoConsolidate.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/cacheDm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cacheDm/cacheDm/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -136,14 +140,7 @@
       <workItem from="1581669387367" duration="618000" />
       <workItem from="1581671189705" duration="134000" />
       <workItem from="1581672153978" duration="88000" />
-      <workItem from="1581672545062" duration="1236000" />
-    </task>
-    <task id="LOCAL-00027" summary="Meta">
-      <created>1581423732250</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1581423732250</updated>
+      <workItem from="1581672545062" duration="2586000" />
     </task>
     <task id="LOCAL-00028" summary="ORM外键">
       <created>1581424949170</created>
@@ -481,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581610041982</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="operateMemcached">
+      <created>1581673858725</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1581673858725</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -501,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="select_related" />
     <MESSAGE value="prefetch_related" />
     <MESSAGE value="defer only" />
     <MESSAGE value="get_or_create和bulk_create" />
@@ -526,17 +529,18 @@
     <MESSAGE value="ModelForm" />
     <MESSAGE value="文件上传" />
     <MESSAGE value="文件通过模型保存 路径设置与文件限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="文件通过模型保存 路径设置与文件限制" />
+    <MESSAGE value="operateMemcached" />
+    <option name="LAST_COMMIT_MESSAGE" value="operateMemcached" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581610038849">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581673854631">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581610038849" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581673632180">
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673854631" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581674486754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673632180" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581674486754" />
     <state x="611" y="303" key="Github.ShareDialog" timestamp="1581327757027">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -565,10 +569,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673646733" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581610066223">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581673866295">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581610066223" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673866295" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581672545057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
