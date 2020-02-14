@@ -9,6 +9,7 @@ from django.contrib import messages
 # from django.template.context_processors import request
 # from django.contrib.auth.context_processors import auth
 # from django.contrib.messages.context_processors import messages
+# from django.template.context_processors import media
 
 
 def index(request):
