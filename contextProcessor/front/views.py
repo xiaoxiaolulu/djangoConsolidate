@@ -4,6 +4,7 @@ from front.forms import RegisterForm, LoginForm
 from front.models import User
 from django.contrib import messages
 
+
 # 内置的上下文处理器
 # from django.template.context_processors import debug
 # from django.template.context_processors import request
@@ -20,6 +21,7 @@ def index(request):
     #     context['front_user'] = user
     # except User.DoesNotExist:
     #     pass
+    print(request.front_user.username)
     return render(request, 'index.html')
 
 
