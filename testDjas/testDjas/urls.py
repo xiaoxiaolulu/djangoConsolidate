@@ -16,6 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from front import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('add/', views.add, name='add'),
+    path('login/', views.loginView, name='login'),
+    path('logout/', views.logoutView),
+    path('add_per/', views.add_per),
+    path('group/', views.group)
 ]

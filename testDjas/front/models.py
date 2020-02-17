@@ -1,3 +1,4 @@
+from django.contrib.auth import get_user_model
 from django.contrib.auth.base_user import BaseUserManager, AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.db import models
@@ -27,6 +28,7 @@ class UserManage(BaseUserManager):
         
         
 class User(AbstractBaseUser, PermissionsMixin):
+    
     telephone = models.CharField(max_length=11, unique=True)
     email = models.CharField(max_length=100, unique=True)
     username = models.CharField(max_length=100)
@@ -41,3 +43,16 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     def get_short_name(self):
         return self.username
+
+
+class Article(models.Model):
+
+    title = models.CharField(max_length=100)
+    content = models.TextField()
+    author = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
+
+    class Meta:
+        permissions = (
+            ("publish_article", "Can publish article"),
+            ("comment_article", "Can comment article"),
+        )

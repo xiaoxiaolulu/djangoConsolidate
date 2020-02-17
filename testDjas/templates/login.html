@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    {% csrf_token %}
+    <table>
+        <tbody>
+            <tr>
+                <td>用户名</td>
+                <td><input type="text" name="telephone"></td>
+            </tr>
+            <tr>
+                <td>密码</td>
+                <td><input type="text" name="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="">
+                        <input type="checkbox" name="remember" value="1">记住我
+                    </lable>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="登录"></td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
