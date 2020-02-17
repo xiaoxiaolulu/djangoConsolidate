@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function getCookie(name) {
+            var cookieValue = null;
+            if (document.cookie && document.cookie != '') {
+                var cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    var cookie = jQuery.trim(cookies[i]);
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        var myajax = {
+            'get': function (args) {
+                args['method'] = 'get';
+                this.ajax(args);
+            },
+
+            'post': function (args) {
+                args['method'] = 'post';
+                this._ajaxSetup();
+                this.ajax(args);
+            },
+
+            'ajax': function (args) {
+                $.ajax(args);
+            },
+
+            '_ajaxSetup': function () {
+                $.ajaxSetup({
+                    beforeSend: function (xhr, settings) {
+                        if (!/^(GET|HEAD|OPTIONS|TRACE)$/.test(settings.type) && !this.crossDomain) {
+                            xhr.setRequestHeader('X-CSRFToken', getCookie('csrftoken'));
+                        }
+                    }
+                })
+            }
+        };
+
+        $(function () {
+            $('#submit').click(function (event) {
+                event.preventDefault();
+                var email = $("input[name='email']").val();
+                var money = $("input[name='money']").val();
+
+                myajax.post({
+                    'url': '/transfer/',
+                    'data': {
+                        'email': email,
+                        'money': money
+                    },
+                    'success': function (data) {
+                        console.log(data);
+                    },
+                    'fail': function (error) {
+                        console.log(error);
+                    }
+                })
+            })
+        });
+    </script>
+</head>
+<body>
+<h1>转账</h1>
+<form action="" method="post">
+    <table>
+        <tbody>
+        <tr>
+            <td>转给</td>
+            <td><input type="text" name="email"></td>
+        </tr>
+        <tr>
+            <td>金额</td>
+            <td><input type="text" name="money"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" id="submit" value="提交"></td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
