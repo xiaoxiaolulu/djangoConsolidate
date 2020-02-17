@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="4176615f-05ff-4e85-a71a-83d31f157bc8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate/authenticate/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate/authenticate/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate/authenticate/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate/authenticate/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate/front/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate/front/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authenticate/front/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/authenticate/front/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +139,7 @@
       <workItem from="1581671189705" duration="134000" />
       <workItem from="1581672153978" duration="88000" />
       <workItem from="1581672545062" duration="9405000" />
-      <workItem from="1581921976214" duration="3711000" />
-    </task>
-    <task id="LOCAL-00035" summary="关联查询IN">
-      <created>1581435055007</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1581435055007</updated>
+      <workItem from="1581921976214" duration="4458000" />
     </task>
     <task id="LOCAL-00036" summary="gt lt gte lte">
       <created>1581490313956</created>
@@ -479,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581933339013</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="扩展User模型-使用Proxy模型">
+      <created>1581936386032</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1581936386032</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="JsonResponse" />
     <MESSAGE value="生成和下载csv文件" />
     <MESSAGE value="大型CSV文件的处理方式" />
     <MESSAGE value="类视图" />
@@ -524,13 +528,14 @@
     <MESSAGE value="media、static、csrf" />
     <MESSAGE value="中间件定义" />
     <MESSAGE value="csrf" />
-    <option name="LAST_COMMIT_MESSAGE" value="csrf" />
+    <MESSAGE value="扩展User模型-使用Proxy模型" />
+    <option name="LAST_COMMIT_MESSAGE" value="扩展User模型-使用Proxy模型" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581933332943">
+    <state x="372" y="2" key="CommitChangelistDialog2" timestamp="1581936381826">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581933332943" />
+    <state x="372" y="2" key="CommitChangelistDialog2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581936381826" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581674486754">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -563,10 +568,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="54" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581673646733" />
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581933346551">
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2" timestamp="1581936403108">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581933346551" />
+    <state x="361" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1581936403108" />
     <state x="449" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1581672545057">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
